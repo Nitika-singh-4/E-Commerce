@@ -28,3 +28,17 @@ API Building 101: Create endpoints for things like logging in, managing products
 Designing Databases: Sketch out data models and relationships in MongoDB.
 
 Authentication Matters: Protect sensitive parts of the app and manage who gets access to what.
+
+
+## Milestone2 Project overview
+A simple and resoponsive  login page using react.
+## Features
+
+ **User-Friendly Design**: Clean and responsive interface optimized for various screen sizes.
+ **Interactive Inputs**: Includes interactive input fields for username/email and password.
+ **Client-Side Validation**: Validates user inputs for required fields and basic patterns.
+
+ ## Technologies Used
+**React**: For building the user interface.
+**CSS**: For styling the components and ensuring responsiveness.
+**JavaScript (ES6)**: Adding interactivity and validation logic within React.
