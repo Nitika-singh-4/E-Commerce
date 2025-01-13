@@ -29,7 +29,7 @@ Designing Databases: Sketch out data models and relationships in MongoDB.
 
 Authentication Matters: Protect sensitive parts of the app and manage who gets access to what.
 
-Milestone2 Project overview
+## Milestone2 Project overview
 A simple and resoponsive login page using react.
 
 Features
@@ -38,7 +38,7 @@ User-Friendly Design: Clean and responsive interface optimized for various scree
 Technologies Used
 React: For building the user interface. CSS: For styling the components and ensuring responsiveness. JavaScript (ES6): Adding interactivity and validation logic within React.
 
-Milestone 3
+## Milestone 3
 This project demonstartes a server application that connects to a database, implements JWT-based authentication, and uses structured error handling.
 
 ##Features
@@ -54,3 +54,26 @@ MongoDB: NoSQL database for data storage.
 Mongoose: ODM library for MongoDB.
 JsonWebToken: For generating and verifying JWT tokens.
 dotenv: For managing environment variables.
+
+## Milestone 4
+This project demostrate creating a MongoDB schema, integrating file uploads using 'multer', hashing passwords with bcrypt, parsing request bodies with body-parser and securing routes with JWT-based authentication.
+
+## features
+
+MongoDB Schema: Define and manage MongoDB collections using Mongoose.
+File Uploads: Upload and store files using multer.
+Password Hashing: Secure user passwords using bcrypt
+Body Parsing: Parse incoming request bodies using body-parser.
+JWT Authentication: Project routes a manage authentication tokens.
+
+## Technologies Used
+
+Node.js: Backend runtime environment.
+Express: Web framework for building APIs.
+MongoDB: NoSQL database for data storage.
+Mongoose: ODM library for MongoDB.
+Multer: Middleware for handling file uploads.
+Bcrypt: Library for hashing passwords.
+Body-Parser: Middleware for parsing JSON and URL-encoded data.
+jsonwebtoken: Library for creating and verifying JWT tokens.
+
