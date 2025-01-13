@@ -28,3 +28,4 @@ API Building 101: Create endpoints for things like logging in, managing products
 Designing Databases: Sketch out data models and relationships in MongoDB.
 
 Authentication Matters: Protect sensitive parts of the app and manage who gets access to what.
+
