@@ -39,7 +39,7 @@ Technologies Used React: For building the user interface. CSS: For styling the c
 ## Milestone 3
 This project demonstartes a server application that connects to a database, implements JWT-based authentication, and uses structured error handling.
 
-## Features Database Connecting: Connects to a MondgoDB database using Mongoose. JWT Authentication: Secures endpoint with JSON Web Tokens (JWT). Error Handling: Centralizes error handling using custom middleware. Scalable Structurr: Origanized folder structure for better maintainability. Environment Variables: Senstive data is managed using .env files.
+ Features Database Connecting: Connects to a MondgoDB database using Mongoose. JWT Authentication: Secures endpoint with JSON Web Tokens (JWT). Error Handling: Centralizes error handling using custom middleware. Scalable Structurr: Origanized folder structure for better maintainability. Environment Variables: Senstive data is managed using .env files.
 
 ## Technologies Used
 Node.js: Server-side JAvaScript runtime. Express: Web framework for building RESTFUL APIs. MongoDB: NoSQL database for data storage. Mongoose: ODM library for MongoDB. JsonWebToken: For generating and verifying JWT tokens. dotenv: For managing environment variables.
