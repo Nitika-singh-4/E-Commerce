@@ -29,3 +29,18 @@ Designing Databases: Sketch out data models and relationships in MongoDB.
 
 Authentication Matters: Protect sensitive parts of the app and manage who gets access to what.
 
+## Milestone2 Project overview
+A simple and resoponsive login page using react.
+
+Features User-Friendly Design: Clean and responsive interface optimized for various screen sizes. Interactive Inputs: Includes interactive input fields for username/email and password. Client-Side Validation: Validates user inputs for required fields and basic patterns.
+
+Technologies Used React: For building the user interface. CSS: For styling the components and ensuring responsiveness. JavaScript (ES6): Adding interactivity and validation logic within React.
+
+## Milestone 3
+This project demonstartes a server application that connects to a database, implements JWT-based authentication, and uses structured error handling.
+
+## Features Database Connecting: Connects to a MondgoDB database using Mongoose. JWT Authentication: Secures endpoint with JSON Web Tokens (JWT). Error Handling: Centralizes error handling using custom middleware. Scalable Structurr: Origanized folder structure for better maintainability. Environment Variables: Senstive data is managed using .env files.
+
+## Technologies Used
+Node.js: Server-side JAvaScript runtime. Express: Web framework for building RESTFUL APIs. MongoDB: NoSQL database for data storage. Mongoose: ODM library for MongoDB. JsonWebToken: For generating and verifying JWT tokens. dotenv: For managing environment variables.
+
