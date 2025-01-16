@@ -85,3 +85,18 @@ Key Learnings -
 We Learned how to create the UI for the Signup page using React and Tailwind CSS.
 We also learned how to use RegEx (Regular expressions) for the validation of the inputs on the signup page.
 
+## Milestone 6 Project Overview -
+The endpoint is responsible for handling user registration. It accepts user details such as name, email, password, and an optional avatar file. It processes the data, hashes the password, and stores the user information in the database.
+
+Features
+
+Handles file uploads for user avatars.
+
+Hashes passwords for secure storage.
+
+Validates input data.
+
+Stores user information, including an avatar, in the database.
+
+Returns a success response with the created user data.
+
