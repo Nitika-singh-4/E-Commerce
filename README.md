@@ -77,3 +77,11 @@ Bcrypt: Library for hashing passwords.
 Body-Parser: Middleware for parsing JSON and URL-encoded data.
 jsonwebtoken: Library for creating and verifying JWT tokens.
 
+## Milestone 5 Project Overview -
+In this milestone we focused on creating a signup page for new users visiting the website,
+
+Key Learnings -
+
+We Learned how to create the UI for the Signup page using React and Tailwind CSS.
+We also learned how to use RegEx (Regular expressions) for the validation of the inputs on the signup page.
+
