@@ -1,5 +1,5 @@
 import {React, useState} from 'react';
-
+import {Link} from 'react-router-dom';
 const Login=()=>{
     const[email, setEmail]= useState("")
     const[password, setPassword]= useState("")
@@ -27,7 +27,7 @@ const Login=()=>{
                     <div>
                         <label htmlFor="password" className='block text-sm font-medium text-gray-700'>Password</label>
                         <div className='mt-1'>
-                            <input type="password" name='password' placeholder= 'enter-password'  autoComplete='password' required value={email} onChange={(e)=>setPassword(e.target.value)} className='appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm' />
+                            <input type="password" name='password' placeholder= 'enter-password'  autoComplete='password' required value={password} onChange={(e)=>setPassword(e.target.value)} className='appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm' />
                         </div>
                         
                     </div>
@@ -41,8 +41,11 @@ const Login=()=>{
                         </div>
                     </div>
                     <div>
-                        <button type='submit' className=' relative w-full h-6 flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700'>Submit</button>
+                        <button type='submit' className=' relative w-full h-6 flex justify-center text-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700'>Submit</button>
                     </div>
+                    <p className='text-center'>
+                        Donot have account? <Link to={'/signup'} className='text-blue-600'>Signup</Link>
+                    </p>
                     </form>
                 </div>
             </div>
