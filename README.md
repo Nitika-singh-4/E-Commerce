@@ -138,3 +138,10 @@ Returns a success response with the created user data.
 
 =======
 >>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
+
+## Milestone 7
+In this milestone we simply implemented the logic for login and signup , that is if the user already exists in the database then only he/she will be able to login
+
+## Milestone 8
+
+In this milestone we just create a home page for the products 
