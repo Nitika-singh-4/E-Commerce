@@ -1,4 +1,3 @@
-
 import { React, useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -59,7 +58,7 @@ const Signup = () => {
 
 
 //axios request
-    axios.post("http://10.1.77.124:8000/api/v2/user/create-user", newForm, config).then((res)=>{
+    axios.post("http://localhost:8000/api/v2/user/create-user", newForm, config).then((res)=>{
       console.log(res.data);
     }).catch((err)=>{
       console.log(err);
