@@ -145,3 +145,6 @@ In this milestone we simply implemented the logic for login and signup , that is
 ## Milestone 8
 
 In this milestone we just create a home page for the products 
+
+## Milestone 9
+In this  milestone we have learnt how to create a product page and like we can see the categories of prducts, their names, descriptions and price stock and all other things.
