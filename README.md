@@ -132,3 +132,6 @@ In this milestone we just create a home page for the products
 ## Milestone 9
 In this  milestone we have learnt how to create a product page and like we can see the categories of prducts, their names, descriptions and price stock and all other things.
 
+## Miletsone 10
+In this milstone we created the end point of the product and use the multer and define the axios in createProduct file to in backend. 
+
