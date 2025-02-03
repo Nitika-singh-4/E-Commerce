@@ -5,6 +5,8 @@ const cookieParser=require('cookie-parser');
 const bodyParser=require('body-parser')
 const cors=require('cors')
 const app=express()
+    const path=require('path')
+
 // const product = require('./controller/product');
 // Some other code
 // Remove the duplicate line above
@@ -22,6 +24,8 @@ if(process.env.NODE_ENV !=="PRODUCTION"){
         path:'backend/config/.env'
     })
 }
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/products', express.static(path.join(__dirname, 'products')));
 //import router
 const user=require('./controller/user')
 const product=require('./controller/product')
