@@ -28,10 +28,8 @@ API Building 101: Create endpoints for things like logging in, managing products
 Designing Databases: Sketch out data models and relationships in MongoDB.
 
 Authentication Matters: Protect sensitive parts of the app and manage who gets access to what.
-## Milestone2 Project overview
-A simple and resoponsive login page using react.
 
-<<<<<<< HEAD
+
 ## Milestone2 Project overview
 A simple and resoponsive login page using react.
 
@@ -49,7 +47,7 @@ Technologies Used React: For building the user interface. CSS: For styling the c
 ## Milestone 3
 This project demonstartes a server application that connects to a database, implements JWT-based authentication, and uses structured error handling.
 
-<<<<<<< HEAD
+
 ##Features
 Database Connecting: Connects to a MondgoDB database using Mongoose.
 JWT Authentication: Secures endpoint with JSON Web Tokens (JWT).
@@ -104,23 +102,15 @@ MongoDB Schema: Define and manage MongoDB collections using Mongoose. File Uploa
 Technologies Used
 Node.js: Backend runtime environment. Express: Web framework for building APIs. MongoDB: NoSQL database for data storage. Mongoose: ODM library for MongoDB. Multer: Middleware for handling file uploads. Bcrypt: Library for hashing passwords. Body-Parser: Middleware for parsing JSON and URL-encoded data. jsonwebtoken: Library for creating and verifying JWT tokens.
 
-## Milestone 5
 
-In this milestone we focused on creating a signup page for new users visiting the website,
 
-**Key Learnings** -
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
 
-We Learned how to create the UI for the Signup page using React and Tailwind CSS.
-We also learned how to use RegEx (Regular expressions) for the validation of the inputs on the signup page.
-
-<<<<<<< HEAD
 ## Milestone 6 Project Overview -
-=======
-## Milestone 6
+
+
 Overview
 
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
+
 The endpoint is responsible for handling user registration. It accepts user details such as name, email, password, and an optional avatar file. It processes the data, hashes the password, and stores the user information in the database.
 
 Features
@@ -134,14 +124,30 @@ Validates input data.
 Stores user information, including an avatar, in the database.
 
 Returns a success response with the created user data.
-<<<<<<< HEAD
+## Milestone 7: Project Overview -
+In this milestone we simply implemented the logic for login and signup , that is if the user already exists in the database then only he/she will be able to login.
 
-=======
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
+## Milestone 8: Project Overview -
+In this milestone we simply created the frontend part for the HomePage of our Website , And also learned how to route it.
 
-## Milestone 7
-In this milestone we simply implemented the logic for login and signup , that is if the user already exists in the database then only he/she will be able to login
+## Milestone 9: Project Overview -
+In this milestone we have simply created a form named create product to add products to our website. We created it using React.js and tailwind css.
 
-## Milestone 8
+The Key features of the form are - Name of product , its description , price , etc... and also a file upload feature to upload the pictures of the product.
 
-In this milestone we just create a home page for the products 
+## Milestone 10: Project Overview -
+In this milestone we learned how to setup the backend for the createproduct page that we created in milestone9.
+
+## Milestone 11: Project Overview -
+In this milestone we created an api endpoint which will extract data from createproduct page and then will display the product on the home page.
+
+## Milestone 12: Project Overview -
+In this milestone, we created an API endpoint to filter data by email from MongoDB and dynamically display it on the home page using the previously created product card.
+
+## Milestone 13: Project Overview -
+In this milestone we learned how to implement the Edit Feature for the My Products Page, including designing an edit form with pre-filled product details, handling form submissions, and making API requests to update the backend database.
+
+## Milestone 14: Project Overview -
+In this milestone we learned how to implement the Delete feature for my_products Page.
+
+
