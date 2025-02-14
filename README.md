@@ -109,14 +109,12 @@ Node.js: Backend runtime environment. Express: Web framework for building APIs. 
 In this milestone we focused on creating a signup page for new users visiting the website,
 
 **Key Learnings** -
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
+
 
 We Learned how to create the UI for the Signup page using React and Tailwind CSS.
 We also learned how to use RegEx (Regular expressions) for the validation of the inputs on the signup page.
 
-<<<<<<< HEAD
-## Milestone 6 Project Overview -
-=======
+
 ## Milestone 6
 Overview
 
@@ -134,10 +132,7 @@ Validates input data.
 Stores user information, including an avatar, in the database.
 
 Returns a success response with the created user data.
-<<<<<<< HEAD
 
-=======
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
 
 ## Milestone 7
 In this milestone we simply implemented the logic for login and signup , that is if the user already exists in the database then only he/she will be able to login
@@ -145,3 +140,25 @@ In this milestone we simply implemented the logic for login and signup , that is
 ## Milestone 8
 
 In this milestone we just create a home page for the products 
+
+## Milestone 9: Project Overview -
+In this milestone we have simply created a form named create product to add products to our website. We created it using React.js and tailwind css.
+
+The Key features of the form are - Name of product , its description , price , etc... and also a file upload feature to upload the pictures of the product.
+
+## Milestone 10: Project Overview -
+In this milestone we learned how to setup the backend for the createproduct page that we created in milestone9.
+
+## Milestone 11: Project Overview -
+In this milestone we created an api endpoint which will extract data from createproduct page and then will display the product on the home page.
+
+## Milestone 12: Project Overview -
+In this milestone, we created an API endpoint to filter data by email from MongoDB and dynamically display it on the home page using the previously created product card.
+
+## Milestone 13: Project Overview -
+In this milestone we learned how to implement the Edit Feature for the My Products Page, including designing an edit form with pre-filled product details, handling form submissions, and making API requests to update the backend database.
+
+## Milestone 14: Project Overview -
+In this milestone we learned how to implement the Delete feature for my_products Page.
+## Milestone 15: Porject Overview -
+In this milestone we learned how to create navBar and imported it in every pages like Home page, ProductPage.
