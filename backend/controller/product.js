@@ -4,6 +4,7 @@ const User = require("../model/User");
 const Product = require('../model/product')
 const router=express.Router()
 const {pupload}=require('../multer');
+const path=require('path')
 // const { default: Product } = require('../../frontend/src/components/Product');
 
 const validateProductData=(data)=>{
@@ -20,7 +21,9 @@ const validateProductData=(data)=>{
 }
 router.post('/create-product', pupload.array('images',10), async(req, res)=>{
     // const{name, description,category,tags,price,stock,email}=req.bod;
-    const images = req.files.map((file)=>file.path);
+    const images = req.files.map((file) => {
+        return `/products/${path.basename(file.path)}`;
+    });
     console.log(req.body);
     console.log(req.files);
     const validationErrors=validateProductData(req.body)
