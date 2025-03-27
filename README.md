@@ -192,3 +192,6 @@ In this milestone we completed the confirmation order UI and backend part.
 In this milstone we completed the my order's part backend.
 ## Milestone 27: Project Overview-
 In this milestone we completed myorrder page UI and also the status about the ordered that placed.
+## Milestone28: project Overview-
+In this milestone we created a patch end point for the my-order page.
+
