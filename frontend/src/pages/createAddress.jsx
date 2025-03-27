@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import React, { useState,useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/auth/nav";
@@ -42,6 +43,13 @@ const CreateAddress = () => {
             alert("Failed to add address. Please check the data and try again.");
         }
     };
+    useEffect(() => {
+        axios.get(`http://localhost:8000/api/v2/user/addresses?email=nitikasingh262@gmail.com`)
+            .then((res) => {
+                console.log("API Response:", res.data); // Log to debug missing fields
+            })
+            .catch((error) => console.error("Error fetching addresses:", error));
+    }, []);
 
     return (
         <>

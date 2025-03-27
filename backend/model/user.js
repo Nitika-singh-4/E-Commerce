@@ -22,28 +22,17 @@ const userSchema=new mongoose.Schema({
         type:Number,
        maxLength:[10, "don't exceed more than 10 digits"]
     },
-    addresses:[
-        {
-            conuntry:{
-                type:String,
-            },
-            city:{
-                type:String,
-            },
-            addresses1:{
-                type:String,
-            },
-            addresses2:{
-                type:String
-            },
-            zipCode:{
-                type:Number
-            },
-            addressType:{
-                type:String
-            },
-        }
-    ],
+    
+ addresses: [
+    {
+        country: { type: String },   // ✅ Fixed typo
+        city: { type: String },
+        address1: { type: String },  // ✅ Fixed typo
+        address2: { type: String },  // ✅ Fixed typo
+        zipCode: { type: Number },
+        addressType: { type: String },
+    }
+],
     role:{
         type:String,
         default:"user",
