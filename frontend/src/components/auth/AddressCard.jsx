@@ -80,6 +80,6 @@ addressCard.propTypes = {
     city: PropTypes.string.isRequired,
     address1: PropTypes.string.isRequired,
     address2: PropTypes.string.isRequired,
-    zipCode: PropTypes.number.isRequired,
+    zipCode: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     addressType: PropTypes.string.isRequired
 };

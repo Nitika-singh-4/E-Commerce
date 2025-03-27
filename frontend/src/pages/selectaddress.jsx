@@ -78,7 +78,7 @@ const SelectAddress = () => {
         );
     }
 
-return (
+    return (
         <div className='w-full min-h-screen bg-gradient-to-br from-purple-100 to-blue-200'>
         <div className='w-full min-h-screen flex flex-col'>
             <Nav />
@@ -93,10 +93,9 @@ return (
                                     className='border p-4 rounded-md flex justify-between items-center hover:shadow-md transition-shadow'
                                 >
                                     <div>
-                                    <p className='font-medium'>
-                                        {address.address1}{address.address2 ? `, ${address.address2}` : ''}, {address.city}, {address.state}, {address.zipCode}
-                                    </p>
-
+                                        <p className='font-medium'>
+                                            {address.address1}{address.address2 ? `, ${address.address2}` : ''}, {address.city}, {address.state}, {address.zipCode}
+                                        </p>
                                         <p className='text-sm text-gray-600'>{address.country}</p>
                                         <p className='text-sm text-gray-500'>Type: {address.addressType || 'N/A'}</p>
                                     </div>

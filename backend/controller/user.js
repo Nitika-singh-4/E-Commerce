@@ -3,8 +3,8 @@ const path = require("path");
 const fs = require("fs");
 const bcrypt = require("bcrypt"); 
 const User = require("../model/User");
-const jwt=require('jsonwebtoken')
-const sendMail=require('../utils/sendMail')
+// const jwt=require('jsonwebtoken')
+// const sendMail=require('../utils/sendMail')
 const router = express.Router();
 const { upload } = require("../multer");
 const ErrorHandler = require("../utils/ErrorHandler");
@@ -107,16 +107,18 @@ router.post("/add-address", catchAsyncErrors(async (req, res, next) => {
     }
 
     const newAddress = {
-        country,
+        country,  // ✅ Field names should match schema
         city,
-        address1,
-        address2,
+        address1, // ✅ Fixed typo
+        address2, // ✅ Fixed typo
         zipCode,
         addressType,
     };
 
     user.addresses.push(newAddress);
     await user.save();
+    console.log("Address data:", country, city, address1, address2, zipCode, addressType);
+
 
     res.status(201).json({
         success: true,
@@ -132,16 +134,17 @@ router.get("/addresses", catchAsyncErrors(async (req, res, next) => {
     }
 
     const user = await User.findOne({ email });
-  
+
     if (!user) {
         return next(new ErrorHandler("User not found", 404));
     }
-  
+
+    console.log("Fetched User Addresses:", user.addresses);
+
     res.status(200).json({
         success: true,
         addresses: user.addresses,
-    }); 
-  } 
-  ));
+    });
+}));
 
 module.exports = router;
