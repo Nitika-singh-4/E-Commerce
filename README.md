@@ -134,10 +134,7 @@ Validates input data.
 Stores user information, including an avatar, in the database.
 
 Returns a success response with the created user data.
-<<<<<<< HEAD
 
-=======
->>>>>>> ce789d86b5fd3812cb6f8a05e4d83eed1457202e
 
 ## Milestone 7
 In this milestone we simply implemented the logic for login and signup , that is if the user already exists in the database then only he/she will be able to login
@@ -145,3 +142,51 @@ In this milestone we simply implemented the logic for login and signup , that is
 ## Milestone 8
 
 In this milestone we just create a home page for the products 
+## Milestone 9: Project Overview -
+In this milestone we have simply created a form named create product to add products to our website. We created it using React.js and tailwind css.
+
+The Key features of the form are - Name of product , its description , price , etc... and also a file upload feature to upload the pictures of the product.
+
+## Milestone 10: Project Overview -
+In this milestone we learned how to setup the backend for the createproduct page that we created in milestone9.
+
+## Milestone 11: Project Overview -
+In this milestone we created an api endpoint which will extract data from createproduct page and then will display the product on the home page.
+
+## Milestone 12: Project Overview -
+In this milestone, we created an API endpoint to filter data by email from MongoDB and dynamically display it on the home page using the previously created product card.
+
+## Milestone 13: Project Overview -
+In this milestone we learned how to implement the Edit Feature for the My Products Page, including designing an edit form with pre-filled product details, handling form submissions, and making API requests to update the backend database.
+
+## Milestone 14: Project Overview -
+In this milestone we learned how to implement the Delete feature for my_products Page.
+
+## Milestone 15: Porject Overview -
+In this milestone we learned how to create navBar and imported it in every pages like Home page, ProductPage.
+## Milestone 16: Project Overview -
+In this milestone we create more info button for see the a particular products detail like prices category and quantity.
+## Milestone 17 Project Overview-
+
+In this milestone we have created an schema for the cart and added the cart details into the database using post method in controller
+
+## Milestone 18 Project Overview-
+
+In this milestone we have created an method addtocart when we click on addtocart button then we need to create the get method in controller, the product will be fetching the details like name,quantity and cost
+## Milestone 19 project overview-
+
+In this milestone we have created cart page which shows our products in the cart and updation of quantity.
+## Milestone 20 project overview-
+In this milestone we have created a profile page in that we see our own info.
+## Milestone 21: Project Overview -
+In this milestone we created a create address page to add user address to the profile page .
+## Milestone 22: Project Overview -
+In this milestone we completed the backend setup for the create Address page.
+## Milestone 23: Project overview -
+In this milestone we completed the UI of the select address part.
+## Milestone 24: Project Overview -
+In this milstone we completed the Backend part of the select address part.
+## Milestone 25: Project Overview -
+In this milestone we completed the confirmation order UI and backend part.
+## Milestone 26: Project Overview -
+In this milstone we completed the my order's part backend.
